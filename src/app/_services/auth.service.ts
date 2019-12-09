@@ -19,4 +19,8 @@ return this.http.post(this.baseUrl + 'login', model).pipe(
   })
 );
   }
+register(model: any) {
+return this.http.post(this.baseUrl + 'register', model);
+}
+
 }
